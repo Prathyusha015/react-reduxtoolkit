@@ -3,6 +3,7 @@ import {configureStore} from '@reduxjs/toolkit';
 import counterReducer from '../features/counter/counterSlice';
 import themeReducer from '../features/theme/themeSlice'
 import authReducer from '../features/auth/authSlice'
+import notificationReducer from '../features/notifications/notificationSlice';
 
 
 export const store = configureStore({
@@ -10,8 +11,7 @@ export const store = configureStore({
         auth: authReducer,
         counter: counterReducer,
         theme: themeReducer,
-   
-
+        notifications: notificationReducer,
 
     }
 })

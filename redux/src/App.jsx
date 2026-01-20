@@ -5,6 +5,7 @@ import './App.css'
 import Counter from './components/counter.jsx'
 import Theme from './components/theme.jsx'
 import AuthComponent from './components/authComponent.jsx'
+import Notification from './components/notification.jsx'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Counter />
         <Theme/>
         <AuthComponent/>
+        <Notification/>
 
        
 
